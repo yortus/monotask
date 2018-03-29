@@ -1,4 +1,4 @@
-## monotask
+## Monotask
 
 `monotask` provides a simple way to mark selected asynchronous functions as tasks belonging to a task queue. Calls to
 such functions are automatically serialised so that they execute strictly one-at-a-time. Tasks within a task queue may

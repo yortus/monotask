@@ -1,7 +1,7 @@
 {
     "name": "monotask",
     "version": "0.1.0",
-    "description": "Asynchronous task queues for Node.js",
+    "description": "Asynchronous task queuing for Node.js",
     "keywords": [
         "task queue",
         "synchronization",
