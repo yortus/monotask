@@ -1,0 +1,12 @@
+.vscode/
+dist/examples/
+scripts/
+src/
+examples/
+*.ts
+!*.d.ts
+*.js.map
+*.log
+tsconfig.json
+TODO.md
+README.md

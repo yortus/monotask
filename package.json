@@ -1,0 +1,45 @@
+{
+    "name": "monotask",
+    "version": "0.1.0",
+    "description": "Asynchronous task queues for Node.js",
+    "keywords": [
+        "task queue",
+        "synchronization",
+        "serialization",
+        "asynchronous",
+        "call stack"
+    ],
+    "readmeFilename": "README.md",
+    "main": "dist/release/index.js",
+    "typings": "dist/release/index.d.ts",
+    "scripts": {
+        "clean": "rimraf dist/",
+        "build": "tsc -p src && tsc -p examples",
+        "prepare": "npm run self-ref && npm run build",
+        "self-ref": "node ./scripts/enable-self-reference"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yortus/monotask.git"
+    },
+    "contributors": [
+        {
+            "name": "Troy Gerwien",
+            "email": "yortus@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "engines": {
+        "node": ">=8.2.1"
+    },
+    "bugs": {
+        "url": "https://github.com/yortus/monotask/issues"
+    },
+    "homepage": "https://github.com/yortus/monotask#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^9.6.1",
+        "rimraf": "^2.6.2",
+        "typescript": "^2.8"
+    }
+}
